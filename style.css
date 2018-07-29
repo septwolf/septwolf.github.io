@@ -1,0 +1,40 @@
+/*
+Fonts below
+*/
+@import url('https://fonts.googleapis.com/css?family=Exo+2:100');
+
+
+body {
+	background-color: #51B5B1;
+}
+header {
+	
+	
+	text-align: center;
+}
+nav {
+	border: 1px solid black;
+	width: 200px;
+	float: left;
+	
+}
+	
+
+h1 {
+	color: black;
+	font-family: helvetica;
+	text-align: center;
+	font-family: 'Exo 2', sans-serif;
+} 
+a:link {
+	color: orange;     
+}
+a:visited {
+	color: green;
+}
+a:active {
+	color: red;
+}
+a:hover {
+	color: yellow;
+}

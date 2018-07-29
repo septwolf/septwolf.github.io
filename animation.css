@@ -1,0 +1,55 @@
+.box {
+	border: 1px solid black;
+	height: 100px;
+	width: 100px;
+	margin: 10px;
+	text-align: center;
+}
+#d1 {
+	-webkit-transform: rotate(45deg) scale(2,0.5);
+}
+#d2 {
+	-webkit-transform: skewX(70deg) translate(100px, 100px;)
+}
+@-webkit-keyframes spin {
+	from {
+		-webkit-transform: rotate(0deg);
+	}
+	to {
+		-webkit-transform: rotate(360deg);
+	}
+}
+#d3 {
+	-webkit-animation: spin 1s linear 0s infinite normal;
+}
+@-webkit-keyframes moveIt {
+	0% {
+		top: 0;
+		left: 0;
+		background-color: red;
+	}
+	25% {
+		top: 150px;
+		left: 150px;
+		background-color: green;
+	}
+	50% { 
+		top: 0;
+		left: 300px;
+		background-color: blue;
+	}
+	75% {
+		top: -150px;
+		left: 150px;
+		background-color: yellow;
+	}
+	100% {
+		top: 0;
+		left: 0;
+		background-color: red;
+	}
+}
+#d4 {
+	position: relative;
+	-webkit-animation: moveIt 4s ease-in-out 1s infinite alternate;
+}
